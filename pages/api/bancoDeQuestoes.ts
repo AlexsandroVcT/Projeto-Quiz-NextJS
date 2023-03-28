@@ -51,7 +51,7 @@ const questoes: QuestaoModel[] = [
         RespostaModel.certa('npm run start'),
     ]),
     new QuestaoModel(209, 'O que significa SSR em Next.js?', [
-        RespostaModel.errada('Server Side Rendering'),
+        RespostaModel.errada('Server Side Biuld'),
         RespostaModel.errada('Single-Page Application'),
         RespostaModel.errada('Site Search Results'),
         RespostaModel.certa('Server Side Rendering'),
@@ -75,7 +75,7 @@ const questoes: QuestaoModel[] = [
         RespostaModel.certa('useEffect'),
     ]),
     new QuestaoModel(213, 'Qual o nome do hook utilizado para realizar requisições HTTP no Next.js?', [
-        RespostaModel.errada('useEffect'),
+        RespostaModel.errada('useRouter'),
         RespostaModel.errada('useRef'),
         RespostaModel.errada('useContext'),
         RespostaModel.certa('useEffect'),
@@ -85,12 +85,6 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Não possui integração com o React'),
         RespostaModel.errada('Não permite o uso de CSS Modules'),
         RespostaModel.certa('Possui suporte para SSR'),
-    ]),
-    new QuestaoModel(215, 'Qual é a versão atual do Next.js?', [
-        RespostaModel.errada('10'),
-        RespostaModel.errada('11'),
-        RespostaModel.errada('12'),
-        RespostaModel.certa('13'),
     ]),
     new QuestaoModel(216, 'Qual o comando para criar um novo projeto com o Next.js?', [
         RespostaModel.errada('create-react-app'),
